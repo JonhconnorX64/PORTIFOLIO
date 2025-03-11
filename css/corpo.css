@@ -1,1 +1,116 @@
-.corpoo{max-width:900%;background:url(/fotos/fundo11.jpg) no-repeat fixed;background-size:110%;font-family:serif,"Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif}h1{color:transparent;background:url(/fotos/fundo1.gif) repeat;-webkit-background-clip:text;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:#f0f8ff;font-size:5em;text-align:center}.cabecalho{color:aqua;text-align:center;height:250%}.cartao{font-size:20px}h3{text-align:center;color:aqua;font-size:2em;padding-right:55%}.projetos{width:60%;color:#fff;text-align:justify;float:right;font-size:25px;margin:5% 5% 5% 0;padding:1% 0 10% 1%}.sub1{font-size:25px}.sub2{font-size:25px}.minhas{max-width:500%;margin:1% 25% 1% 1%;color:transparent;background:url(/fotos/parkisn.gif) repeat;-webkit-background-clip:text;-webkit-text-stroke-width:.5px;-webkit-text-stroke-color:#00bfff;text-align:justify;padding:5% 0 0 25%;font-size:1.8em;text-indent:2.5%}a:link{text-decoration:none}a:visited{color:#3cb371}a:link{color:#00bfff}.informacoes{padding-left:1%;padding-top:1%;font-size:160%;width:25%;position:fixed;margin:5% 0 0 2%}li{list-style:none}.hard{max-width:100%;float:left;margin:1% 1% 1% 20%;padding:1%;letter-spacing:1px;font-size:1.3em;max-height:200%}.soft{max-width:100%;float:right;margin:1% 25% 1% 1%;padding:1%;letter-spacing:1px;font-size:1.3em;max-height:200%;display:flexbox}h2{text-align:center}.topo{text-align:center;letter-spacing:.6em;text-decoration-line:underline;font-size:18px;text-transform:uppercase;position:relative;margin:5%}
+body {
+  max-width: 100%;
+  max-height: 100%;
+  background: url(/fotos/fundo11.jpg) no-repeat fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+  font-family: serif, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: transparent;
+  background: url(/fotos/fundo1.gif) repeat;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #f0f8ff;
+  font-size: 5em;
+  text-align: center;
+}
+.cabecalho {
+  color: aqua;
+  text-align: center;
+}
+.cartao {
+  font-size: 20px;
+}
+h3 {
+  color: aqua;
+  font-size: 2em;
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+.projetos {
+  width: 55%;
+  color: #fff;
+  text-align: justify;
+  float: right;
+  font-size: 25px;
+  margin: 5% 5% 5% 0;
+  padding: 1% 0 10% 1%;
+}
+.sub1 {
+  font-size: 25px;
+}
+.sub2 {
+  font-size: 25px;
+}
+.minhas {
+  max-width: 500%;
+  margin: 1% 25% 1% 1%;
+  color: transparent;
+  background: url(/fotos/parkisn.gif) repeat;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #00bfff;
+  text-align: justify;
+  padding: 5% 0 0 25%;
+  font-size: 1.8em;
+  text-indent: 2.5%;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: #3cb371;
+}
+a:link {
+  color: #00bfff;
+}
+.informacoes {
+  padding-left: 1%;
+  padding-top: 1%;
+  font-size: 160%;
+  margin: 5% 0 0 2%;
+  max-width: 33%;
+  position: fixed;
+  word-break: break-all;
+}
+li {
+  list-style: none;
+}
+.hard {
+  width: 50%;
+  float: left;
+  margin: 1% 1% 1% 25%;
+  padding: 1%;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  max-height: 200%;
+}
+.soft {
+  width: 50%;
+  float: right;
+  margin: 1% 23% 1% 1%;
+  padding: 1%;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  max-height: 200%;
+  display: flexbox;
+}
+h2 {
+  text-align: center;
+}
+.topo {
+  text-align: center;
+  letter-spacing: 0.6em;
+  text-decoration-line: underline;
+  font-size: 18px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 5%;
+}
