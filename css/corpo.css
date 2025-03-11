@@ -8,8 +8,7 @@ body {
   -o-background-size: cover;
   background-size: 100% 100%;
   background-position: center;
-  font-family: serif, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: serif, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 h1 {
   color: transparent;
